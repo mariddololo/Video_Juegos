@@ -1,0 +1,553 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+/* .falso{
+   height: 90px;
+   background-color: aliceblue;
+} */
+/*lllllllllllllllulilluiluliluiluiluliluiluliluliuliluliuliluliuiuiuiluilulilu*/
+.main-header {
+   background: url(https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/styles/1200/public/media/image/2019/03/javascript.jpg?itok=gnWgoCTM);
+   background-size:cover;
+   background-position: center;
+   background-repeat:no-repeat;
+   height: 10vh;
+   position: relative;
+   background-color:rgb(40,40,40);
+   background-blend-mode:soft-light;  
+   background-attachment:fixed;
+  
+}
+
+a{
+   text-decoration:none ;
+}
+.main-nav{
+   display: flex;
+   background-color: rgba(0,0,0,0.6);
+}
+
+.logo{
+   
+   display :flex;
+   justify-content:center;
+   align-items: center;
+   margin-left:  100px;
+   padding: 20px 50px;
+   font-size: 1.3rem;
+   color:aliceblue;
+}
+ul{
+  
+   display:flex;
+   margin-left: auto;
+   margin-right: 100px;
+}
+
+ul a {
+   display: inline-block;
+   padding: 20px 50px;
+   margin-right: 100px;
+   font-size: 1.3rem;
+   color:white;
+}
+a:hover {
+   background-color:rgb(69, 40, 180);
+}
+.container{
+  
+   padding:10px 0px 0px 100px;
+   width:100%;
+  
+   display: flex;
+   max-width: 1800px; 
+}
+/*luisluisluisluisluisluissiusisusiusiussiusisiusisu*/
+/* .areasrespuesta{
+   margin: auto;
+   height: 500px;
+   width: 500px;
+   /* background-color: rgb(208, 198, 198); 
+} */
+.titulo{
+   width: 100%;
+   height: 90px;
+   background-color: rgba(220, 206, 11, 0.53);
+   position: fixed;
+
+}
+.marcodetitulo{
+   height: 90px;
+   width: 80%;
+   /* background-color: rgb(229, 211, 211); */
+   margin: auto;  
+}
+
+.navegar1{
+   font-size: 15px;
+   padding-top: 60px;
+   padding-left: 175px;
+   height: 90px;
+   width: 40%;
+   /* background-color: rgba(220, 206, 11, 0.53); */
+   float: left;
+   box-sizing: border-box;
+}
+.navegar1 li {
+   display: inline;
+}
+.navegar1 li a{
+   text-decoration: none;
+   letter-spacing: 2px;
+   margin-right: 10px;
+   color: rgb(255, 0, 0);
+
+}
+
+.logo{
+   height: 90px;
+   width: 20%;
+   /* background-color: black; */
+   float: left;
+   padding-left: 70px;
+   padding-top: 30px;
+   box-sizing: border-box;
+   /* background-color: rgba(220, 206, 11, 0.53); */
+}
+.ilogo{
+   height: 50px;
+   width: 100px;
+}
+
+.navegar2{
+   padding-top: 60px;
+   padding-left: 10px;
+   height: 90px;
+   width: 40%;
+   /* background-color: rgba(220, 206, 11, 0.53); */
+   float: right;
+   box-sizing: border-box;
+}
+.navegar2 li{
+
+   display: inline;
+ }
+ .navegar2 li a{
+    font-size: 15px;
+    margin-left: 10px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: rgb(255, 0, 0);
+ }
+
+ /*body o cuerpo*/
+/*h*dasdad*/
+
+h1{
+   padding: 15px;
+   text-align: center;
+   margin-top: 20px;
+   margin-bottom: 10px;
+   color: rgb(232, 133, 68);
+}
+
+
+.principal{
+    width: 70% ;
+    /* background-color: rgba(9, 6, 6, 0.553);
+    background-image: url("https://png.pngtree.com/png-clipart/20220510/original/pngtree-mathematics-pattern-background-for-decoration-free-png-and-psd-png-image_7694674.png"); */
+    float: left;
+
+ }
+
+ body{
+   background-color: rgba(9, 6, 6, 0.553);
+   background-image: url("https://png.pngtree.com/png-clipart/20220510/original/pngtree-mathematics-pattern-background-for-decoration-free-png-and-psd-png-image_7694674.png");
+    
+ }
+
+ /*letrras primero*/
+.puno{
+   line-height: 25px;
+   color: wheat;
+   margin-left: 20px;
+   margin-right: 10px;
+   font-size: 28px;
+}
+h2{
+   text-align: center;
+   margin-top: 90px;
+   color: red;
+}
+p{
+   margin-top: 10px;
+   text-align: center;
+   color: wheat;
+   font-size: 28px;
+   line-height: 30px;
+}
+
+ /*formulas*/
+
+ .formulAreas{
+    display: grid;
+    grid-template-columns: 50% 50%;
+ }
+
+ /*imagenes*/
+
+.imagenesareas{
+   height: 200px;
+   width: 300px;
+   margin-top: 60px;
+   margin-left: 150px;
+   border: solid 2px;
+}
+.imagenesareas2{
+   height: 200px;
+   width: 300px;
+   margin-left: 50px;
+   border: solid 2px;
+}
+
+/*areasrespuestas*/
+
+.figura{
+   display: block;
+   background-color: rgba(255, 255, 255, 0.605);
+   
+}
+
+.lista li{
+   list-style: none;
+}
+
+
+/*PERIMETRO*/
+
+aside{
+   background-color: black;
+   width: 30%;
+   height: 1755px;
+   float: right;
+   
+   
+}
+.grid_perimetro div{
+   /* display: grid;
+   grid-template-columns: 50% 50%; */
+   width: 300px;
+   text-align: center;
+   margin-left: 150px;
+}
+
+h3{
+   margin-top: 30px;
+   color: rgb(232, 133, 68);  
+   text-align: center;
+}
+
+.grid_perimetro p{
+   color: rgb(220, 9, 9);
+   font-size: 20px;
+   text-align: justify;
+   margin-left: 5px;
+   margin-right: 5px;
+}
+
+.pima1{
+   margin-left: 30px;
+   margin-top: 15px;
+   height: 189px;
+   width: 200px;
+}
+.ñ {
+   color: rgb(220, 9, 9);
+
+}
+
+
+
+
+/*222*/
+.areasrespuesta{
+   width: 100%;
+   margin: auto;
+   margin-top: 40px;
+   height: 800px;
+   background-image: url("https://previews.123rf.com/images/ihor_seamless/ihor_seamless0801/ihor_seamless080100194/2402781-vector-fondo-de-pantalla-sin-problemas-de-matem%C3%A1ticas-en-negro.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding-top: 40px;
+   padding-left: 570px;
+   /* background-image: linear-gradient(50deg, #30babccf, rgb(132, 101, 211)); */
+   border-radius: 10px;
+   margin-bottom: 0px;
+   padding-bottom: 50px;
+   
+}
+
+
+.label1{
+   font-size: 40px;
+   color: rgb(0, 0, 0);
+   text-align: center;
+   
+}
+.como ul{
+   display: grid;
+   grid-template-columns: 50% 50%;
+}
+
+
+/*-------------------------------------------------------------*/
+
+.lista p{
+   font-size: 20px;
+   color: black;
+
+   
+}
+.lista ul li{
+   margin-top: 10px;
+   margin-left: 90px;
+}
+
+.AREAS{
+   
+   height: 700px;
+   width: 500px;
+   background-color: rgba(246, 242, 242, 0.667);
+   margin: auto;
+   margin-left: 180px;
+   
+   
+  
+  
+}
+
+.figura{
+   margin-left: 170px;
+   text-align: center;
+   margin-top: 20px;
+
+}
+
+.bfigura{
+   width: 100px;
+   margin-left: 203px;
+   margin-top: 5px;
+}
+
+.AREAS .tituloareas{
+   padding-top: 20px;
+   font-size: 30px;
+   color: rgb(254, 5, 5);
+   letter-spacing: 3px;
+}
+
+
+/*jvascrips*/
+
+#rectangulo{
+   display: none;
+}
+
+#rombo{
+   display: none;
+}
+
+#triangulo{
+   display: none;
+}
+#cuadrado{
+   display: none;
+}
+#circulo{
+   display: none;
+}
+/*--------------------------------*/
+footer{
+   display: flex;
+   height: 200px;
+   width: 100%;
+   background-color:black;
+   
+}
+
+.contenido{
+   display: block;
+   margin-left: 700px;
+}
+.contenedor p{
+ 
+   font-size: 15px;
+}
+.contenido h1{
+   text-align: center;
+   font-size: 15px;
+}
+
+/*---------------------------------*/
+#cuadrado label{
+   font-size: 30px;
+   margin-left: 70px;
+
+}
+#rectangulo label{
+   font-size: 30px;
+   margin-left: 70px;
+}
+
+#Cuadrado{
+   margin-left: 170px;
+   background-color: black;
+   color: white;
+   text-align: center;
+}
+
+#cua{
+   color: black;
+   
+}
+
+#rombo label{
+   display: block;
+   font-size: 30px;
+   margin-left: 70px;
+
+}
+.DM{
+   margin-left: 160px;
+   text-align: center;
+}
+
+#triangulo{ 
+   
+   font-size: 30px;
+}
+#triangulo label{
+   
+   margin-top: 10px;
+   margin-left: 120px;
+   
+}
+
+.trian{
+   display: block;
+   margin-left: 170px;
+   margin-top: 15px;
+   margin-bottom: 15px;
+
+}
+
+#circulo{
+   font-size: 30px;
+   
+}
+#circulo label{
+   margin-left: 100px;
+}
+#radio{
+   margin-left: 175px;
+}
+
+.area1{
+   height: 150px;
+   width: 150px;
+   display: block;
+   padding-left: 180px;
+}
+
+#borrar{
+   margin-top: 20px;
+   margin-left: 160px;
+   width: 180px;
+   background-color: black;
+   color: white;
+}
+
+
+#cir {
+   color: black;
+   font-size: 25px;
+
+}
+
+#cua{
+   color: black;
+   font-size: 25px;
+
+}
+#tri {
+   color: black;
+   font-size: 25px;
+
+}
+#romb {
+   color: black;
+   font-size: 25px;
+
+}
+#recta {
+   color: black;
+   font-size: 25px;
+
+}
+#co{
+   color: black;
+   font-size: 25px;
+
+}
+#result{
+
+   color: black;
+   font-size: 25px;
+
+}
+
+
+
+
+#trapecio{
+   display: none;
+}
+
+#trapecio label{
+   font-size: 30px;
+   margin-left: 15px;
+}
+
+#trape{
+   color: black;
+   font-size: 25px;
+}
+
+#paralelogramo{
+   display: none;
+
+}
+
+#paralelogramo label{
+   font-size: 30px;
+   margin-left: 20px;
+}
+ #paralelogramo input{
+    display: block;
+    margin-left: 160px;
+    text-align: center;
+ }
+
+
+ #cometa{
+    display: none;
+ }
+
+ #cometa label{
+    
+    font-size: 30px;
+    padding-left: 90px
+
+}
+
